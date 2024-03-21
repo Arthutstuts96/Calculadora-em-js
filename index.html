@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <div class="calculadora">
+            <input type="text" placeholder="Use os botões da calculadora" id="inputNumeros" readonly>
+            <div class="teclado">
+                <button class="botao botao-7" value="7">7</button>
+                <button class="botao botao-8" value="8">8</button>
+                <button class="botao botao-9" value="9">9</button>
+                <button class="botao operador adicao" value="+">+</button>
+
+                <button class="botao botao-4" value="4">4</button>
+                <button class="botao botao-5" value="5">5</button>
+                <button class="botao botao-6" value="6">6</button>
+                <button class="botao operador subtracao" value="-">-</button>
+
+                <button class="botao botao-1" value="1">1</button>
+                <button class="botao botao-2" value="2">2</button>
+                <button class="botao botao-3" value="3">3</button>
+                <button class="botao operador multiplicacao" value="*">x</button>
+                
+                <button class="botao botao-." value=".">.</button>
+                <button class="botao botao-0" value="0">0</button>
+                <button id="calcularResultado" value="=">=</button>
+                <button class="botao operador divisao" value="/">/</button>
+
+                <button id="clear">C</button>
+                <button id="backspace">B</button>
+                <button class="botao operador botao-(" value="(">(</button>
+                <button class="botao operador botao-)" value=")">)</button>
+            </div>
+        </div>
+    <script src="main.js"></script>
+    </body>
+</html>

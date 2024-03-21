@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    background: rgb(11, 49, 11);
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(39, 39, 39), rgb(107, 107, 107));
+    border: 5px solid rgb(21, 27, 21);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.calculadora #inputNumeros{
+    background-color: #c3c3c3;
+    border: none;
+    font-size: 22px;
+    font-weight: lighter;
+    border-radius: 16px;
+    padding: 8px;
+    height: 25px;
+}
+#inputNumeros::placeholder{
+    font-size: 15px;
+    font-style: italic;
+}
+.calculadora .teclado{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    gap: 10px;
+    padding: 15px;
+}
+.teclado button{
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.teclado .botao{
+    background-color: yellow;
+}
+.teclado .operador, button{
+    background-color: #fff;
+}
+.teclado .botao:hover{
+    background-color: rgb(158, 158, 0);
+}
+.teclado .operador:hover, button:hover{
+    background-color: #a8a6a6;
+}
